@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Bibliotek" uuid="e752cbd7-5fb1-4743-882d-c391619accfe">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://db-mysql-ams3-47046-do-user-8264467-0.b.db.ondigitalocean.com:25060/filialbiliotek</jdbc-url>
+    </data-source>
+  </component>
+</project>
