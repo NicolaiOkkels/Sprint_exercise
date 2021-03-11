@@ -13,7 +13,15 @@ public class BookService {
     @Autowired
     BookRepository bookRepo;
 
+    public Book findBookById(int id){
+        return bookRepo.findBookById(id);
+    }
+
     public List<Book> readAllBooks(){
         return bookRepo.readAllBooks();
+    }
+
+    public Book addBook(Book book){
+        return bookRepo.addBook(book);
     }
 }
