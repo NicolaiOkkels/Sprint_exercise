@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login side</title>
 </head>
 <body>
+<h1>Velkommen til det lokale bibliotek</h1>
+<a>Indtast venligst dine login oplysninger</a>
+<form name="login"  action="/login" method=POST>
 
+    Username:<br>
+    <input  class="inputwhite" type="text" id="username" name="username">
+    <br>
+    <br>
+    Password:<br>
+    <input  class="inputwhite" type="text" id="password" name="password" >
+    <br>
+    <br>
+    <button type="Submit"  class="button" >Log in</button>
+</form>
 </body>
 </html>
