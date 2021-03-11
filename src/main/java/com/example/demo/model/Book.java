@@ -5,13 +5,10 @@ import java.util.Date;
 public class Book {
     private int id;
     private String name;
-    private Date date;
+    private int year;
+    private boolean isAvailable;
 
-    public Book(int id, String name, Date date) {
-        this.id = id;
-        this.name = name;
-        this.date = date;
-    }
+
 
     public int getId() {
         return id;
@@ -29,11 +26,19 @@ public class Book {
         this.name = name;
     }
 
-    public Date getDate() {
-        return date;
+    public int getYear() {
+        return year;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
+
+    public void setAvailable(boolean available) {
+        isAvailable = available;
     }
 }
