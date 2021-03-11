@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Media {
@@ -8,11 +10,17 @@ public class Media {
     private String mediaName;
     private Date mediaDate;
 
-    public Media(long mediaId, String mediaName, Date mediaDate) {
-        this.mediaId = mediaId;
-        this.mediaName = mediaName;
-        this.mediaDate = mediaDate;
 
+    public void setMediaId(long mediaId) {
+        this.mediaId = mediaId;
+    }
+
+    public void setMediaName(String mediaName) {
+        this.mediaName = mediaName;
+    }
+
+    public void setMediaDate(Date mediaDate) {
+        this.mediaDate = mediaDate;
     }
 
     public long getMediaId() {
@@ -24,6 +32,6 @@ public class Media {
     }
 
     public Date getMediaDate() {
-        return mediaDate;
+        return getMediaDate();
     }
 }
